@@ -23,6 +23,10 @@ h1, h2, h3 {
     margin: 0;
 }
 
+a {
+    color: white;
+}
+
 div {
     /*width: 100%;*/
 }
@@ -56,11 +60,12 @@ p, ul {
 }
  
 .footer {
-    position: absolute;
-    width: 100%;
     color: white;
-    padding: 1rem 0;
+    line-height: 1.6;
+    padding: 1rem 0 2rem;
+    position: absolute;
     text-align: center;
+    width: 100%;
 }
 
 .section {
@@ -147,6 +152,11 @@ p, ul {
 
     .third {
         width: 33%;
+    }
+
+    .to-left-m {
+        float: left;
+        width: 50%;
     }
 }
 
